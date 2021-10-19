@@ -18,3 +18,8 @@
     apt:
       name: neofetch
       state: present
+
+  - name: install toilet
+    apt:
+      name: toilet
+      state: present
