@@ -13,3 +13,8 @@
     apt:
       name: figlet
       state: present
+
+  - name: install neofetch
+    apt:
+      name: neofetch
+      state: present
