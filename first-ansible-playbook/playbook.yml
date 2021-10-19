@@ -8,3 +8,8 @@
       name: cowsay
       state: present
 
+
+  - name: install figlet
+    apt:
+      name: figlet
+      state: present
